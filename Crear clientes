@@ -1,0 +1,14 @@
+name: Crear Cliente
+
+on:
+  workflow_dispatch:
+
+jobs:
+  notificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notificar creación de cliente
+        run: |
+          echo "Se ha creado un nuevo cliente."
+          echo "AnaDev (Desarrolladora): revisar lógica de creación."
+          echo "LuisOps (DevOps): verificar logs y almacenamiento."
