@@ -1,0 +1,14 @@
+name: Actualizar Cliente
+
+on:
+  workflow_dispatch:
+
+jobs:
+  notificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notificar actualización de cliente
+        run: |
+          echo "Se ha actualizado un cliente existente."
+          echo "AnaDev (Desarrolladora): revisar integridad del historial."
+          echo "LuisOps (DevOps): asegurar respaldo automático."
