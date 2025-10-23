@@ -1,0 +1,14 @@
+name: Consultar Cliente
+
+on:
+  workflow_dispatch:
+
+jobs:
+  notificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notificar consulta de cliente
+        run: |
+          echo "🔍 Se ha consultado la información de un cliente."
+          echo "🔔 AnaDev (Desarrolladora): validar formato de salida."
+          echo "🔔 LuisOps (DevOps): monitorear acceso al sistema."
